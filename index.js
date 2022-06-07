@@ -1,11 +1,11 @@
 // code your solution here
 
 
-function satudayFun(toDO="roller-skate"){
-    return `This Saturday, I want to ${toDO}!`;
+function saturdayFun(relax="roller-skate"){
+    return `This Saturday, I want to ${relax}!`;
 }
-satudayFun();
-satudayFun("bathe my dog");
+
+
 
 function mondayWork(day ="go to the office"){
     return `This Monday, I will ${day}.`;
@@ -14,9 +14,9 @@ function mondayWork(day ="go to the office"){
 mondayWork();
 mondayWork("Work from home.");
 
-function wrapAdjective(testing = "*"){
+function wrapAdjective(sample = "*"){
     return function(mypar = "special"){
-        return `You are ${testing}${mypar}${testing}!`;
+        return `You are ${sample}${mypar}${sample}!`;
     }
 }
 wrapAdjective()("a hardworker");
